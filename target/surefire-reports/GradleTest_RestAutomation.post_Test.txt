@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: GradleTest_RestAutomation.post_Test
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.976 s <<< FAILURE! - in GradleTest_RestAutomation.post_Test
+postwithpojo_userreg(GradleTest_RestAutomation.post_Test)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.relevantcodes.extentreports.ExtentReports.startTest(String, String)" because "api.com.util.ExtentReport.extentreport" is null
+	at GradleTest_RestAutomation.post_Test.postwithpojo_userreg(post_Test.java:63)
+
